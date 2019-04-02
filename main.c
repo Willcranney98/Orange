@@ -1,0 +1,19 @@
+//# Orange (where i come from)
+
+//// # Orange // name of the project
+
+
+// co
+
+#include<stdio.h>
+
+int main()
+{
+char c;
+
+for(c = 'A'; c <= 'Z'; ++c)
+    printf("%c", c);
+
+return  0;
+}
+//
