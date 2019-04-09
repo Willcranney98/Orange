@@ -1,10 +1,3 @@
-
-
-//// # Orange // name of the project
-
-
-// co
-
 #include<stdio.h>
 
 int main()
@@ -18,4 +11,4 @@ for(c = 'A'; c <= 'Z'; ++c) // cycle through the alphabet until creaches the val
 return  0;
 }
 
-//try using file I/O
+// need study to understand how to do the start of this
