@@ -17,4 +17,5 @@ for(c = 'A'; c <= 'Z'; ++c) // cycle through the alphabet until creaches the val
 
 return  0;
 }
-//
+
+//try using file I/O
