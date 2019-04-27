@@ -6,33 +6,29 @@ int main()
 
 int asc;
 //int variable;
-int dif = 0; //key
+int dif = 7; //key
 //char str1[20];
 int count = 0; 
-//char input[90];
-
+char input[90];
+char y;
 FILE *text;
 text = fopen("text.txt", "r");
 while(!feof(text)) {
     char x;
-    asc =x%90;    
-    fscanf(text, "%c", &x);
     
-    printf("%d", asc);
-   // printf("%c", " ");
+    asc =(dif+x)%90;    
+    fscanf(text, "%c", &x);
+    if(asc<65){asc+=65;}
+    //y = asc;
+
+      printf("%d", asc);
+    //printf("%d", asc);
+    //printf("%c", " ");
     ++x;
     //printf('\n');
  
     //printf("%c", x);
-    if(asc<65){
-        int temp;
-        temp = asc+65;
-        char c[temp];
-        printf("%c", c);
-    }else{
-        //printf("%c", x);
-        
-    }
+   
     
     
     
