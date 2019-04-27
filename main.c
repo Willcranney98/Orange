@@ -3,7 +3,8 @@
 int main()
 {
 char c;
-
+int key = 3
+string inout = ""
 
 for(c = 'A'; c <= 'Z'; ++c) // cycle through the alphabet until creaches the value of Z
     printf("%c", c); // print each value of the alphabet as c cycles through each letter
