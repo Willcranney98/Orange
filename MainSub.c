@@ -31,7 +31,7 @@ message = fopen("message.txt", "r");
        }
        }
        
-       // done and worksish
+       // done and time to commit
        
    }
 }
