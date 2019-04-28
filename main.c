@@ -6,7 +6,7 @@ int main()
 
 //int asc;
 //int variable;
-int dif = 19; //key
+int dif = 12; //key
 //char str1[20];
 int count = 7; 
 //char input[90];
