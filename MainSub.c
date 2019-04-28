@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+/*
 int main(void)
 {
    int alpha[26];
@@ -34,4 +34,4 @@ message = fopen("message.txt", "r");
        // commit not working
        
    }
-}
+}*/
