@@ -17,16 +17,16 @@ for(int i=0; i<26; i++){
 
   FILE *message;//initalise message file
 message = fopen("message.txt", "r");//open message file
-   while(!feof(message)) {
-       fscanf(message, "%c", &y);//assigns message file to y
-       if(y==32){
+   while(!feof(message)) { //iterates through the file
+       fscanf(message, "%c", &y);//assigns message file character to y
+       if(y<64 || y>90){
            printf("%c",y);
            }
        else{
-           for(int i=0; i<26; i++){//test other values
-               if((alpha[i]==y)){//assign sub to message
+           for(int i=0; i<26; i++){//test alphabet values
+               if((alpha[i]==y)){//if value is found
                
-               printf("%c", i+65);//print decrypted substitution
+               printf("%c", i+65);//print decrypted substitution value
            }
            
            
